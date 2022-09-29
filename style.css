@@ -11,8 +11,8 @@
 }
 
 .item-image {
-  height: 300px;
-  width: 80%;
+  height: 200px;
+  width: 70%;
 }
 
 .item-details {
@@ -50,4 +50,11 @@
 
 .shopping-cart-total {
   min-height: 96px;
+}
+
+/* Inicio Sesion */
+
+#Inicio{
+  text-align: center;
+  color: #000;
 }

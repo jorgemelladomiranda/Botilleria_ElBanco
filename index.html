@@ -10,30 +10,34 @@
     <title>Tienda de Cartas</title>
 </head>
 
-<body>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">Botilleria</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Tienda.html">Tienda</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="index.html">Botilleria</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Tienda.html">Tienda</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div>
+        <div id="Inicio">
+            <h1>INICIAR SESION</h1>
+                <Form name="form" action="INICIO SESION">
+                    <P> Usuario: <input type="text" name="login"></P>
+                    <p>Contraseña: <input type="password" name="password"></p>
+                        <input onclick=ir() type=button value="INICIAR SESION">
 
-        <div>
-            <h2>Bienvenidos a Botilleria El Banco</h2>
+
+                </Form>
         </div>
     
 
@@ -45,7 +49,7 @@
 
     <!-- SCRIPTS -->
 
-    <script src="Inicio.js"></script>
+    <script src="iniciarSesion.js"></script>
 
 
 
