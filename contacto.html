@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <title>contacto</title>
+    <link rel="stylesheet" href="contacto.css" />
+</head>
+
+<body>
+
+<!-- principio navbar -->
+<div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">Botilleria</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Tienda.html">Tienda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html" >Contacto</a>
+                </li>
+                <a class="carritoLogo d-flex float-right" href="carrito.html"> <button type="button">  <img class="logoCarrito" src="img/logocarrito.png" alt="logoCarrito"></button></a>
+            </ul>
+            
+        </div>
+    </nav>
+</div>
+<!-- fin navbar -->
+
+
+<!-- principio formulario -->
+    <div class="contenedor-formulario mt-5">
+        <form action="" class="form">
+            <h1 class="contact">Contacto</h1>
+            <div class="grupo-input">
+                <label for="nombre">Nombres</label>
+                <input type="text" id="nombre" name="nombre"  />
+            </div>
+            <div class="grupo-input">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido"  />
+            </div>
+            <div class="grupo-input">
+                <label for="correo electronico">Correo electronico</label>
+                <input type="mail" id="mail" name="email" placeholder="contacto@gmail.com">
+            </div>
+            <div class="grupo-input">
+                <label for="number">Numero de telefono</label>
+                <input type="number" id="number" name="numero de telefono" placeholder="+56912345678">
+            </div>
+            <div class="grupo-input">
+                <label for="comentario">Comentario</label>
+                <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario"
+                    name="comentario"></textarea>
+            </div>
+            <input type="submit" onclick= "return enviarFormulario();" value="Enviar">
+            <button class="btn btn-dark mt-2" type="reset" id="reset" name="reset">Restablecer</button>
+        </form>
+        <div id="error"></div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    </div>
+    <!-- fin formulario -->
+    <!-- INICIO FOOTER -->
+    <footer class="bg-dark p-3 mt-5">
+        <p class="text-center m-0 text-muted">Botilleria El Banco</p>
+    </footer>
+    <!-- FIN FOOTER -->
+
+
+    <script src="./formulario.js"></script>
+
+
+</body>

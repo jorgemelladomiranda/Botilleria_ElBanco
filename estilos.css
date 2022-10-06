@@ -1,0 +1,86 @@
+.negro {
+    color: black;
+    text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/fondocarrito.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.top-pagina {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 150px;
+    max-height: 150px;
+
+}
+
+.logoCarrito {
+    max-width: 40px;
+    max-height: 40px;
+
+}
+
+.titulo {
+    padding-top: 60px;
+    background-color: transparent;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+.sub-titulo {
+    background-color: transparent;
+    color: white;
+}
+
+.price-carousel {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+
+#demo {
+    background-color: transparent;
+}
+
+
+a:visited {
+    color: white;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+
+}
+
+.buscador {
+    color: white;
+}
+
+.item-image {
+    max-width: 460px;
+    max-height: 460px;
+    border-radius: 17px;
+}
+
+.item-title {
+    color: white;
+}
+
+.item-price {
+    color: white;
+}
+
+
+/*# sourceMappingURL=estilos.css.map */
