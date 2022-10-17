@@ -1,0 +1,21 @@
+{
+  "name": "41090_mellado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgemelladomiranda/Botilleria_ElBanco.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgemelladomiranda/Botilleria_ElBanco/issues"
+  },
+  "homepage": "https://github.com/jorgemelladomiranda/Botilleria_ElBanco#readme"
+}

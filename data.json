@@ -1,0 +1,39 @@
+{
+    "alcohol": [{
+            "id": 1,
+            "name": "Coctel Sour Secreto Peruano Limon 1L",
+            "price": 8000,
+            "image": "../img/Coctel-Sour-Secreto.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Campanario Mango Colada",
+            "price": 4990,
+            "image": "../img/mango-colada.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Ramazzotti Aperitivo Rosato",
+            "price": 12900,
+            "image": "../img/Ramazzotti-Aperitivo-Rosato.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Tequila Gran Orendain Reposado",
+            "price": 28000,
+            "image": "../img/Tequila-Gran-Orendain-Reposado.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Whisky Johnnie Walker Red Label",
+            "price": 11990,
+            "image": "../img/Whisky-Johnnie-Walker-Red-Label.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Ron Barcelo Añejo",
+            "price": 5990,
+            "image": "../img/barcelo.jpg"
+        }]
+
+}

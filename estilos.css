@@ -33,6 +33,10 @@ body {
 
 }
 
+.carousel-item img{
+    max-width: 250px;
+    max-height: 250px;
+}
 .titulo {
     padding-top: 60px;
     background-color: transparent;
@@ -63,16 +67,20 @@ img {
     height: 300px;
 
 }
+.item-image {
+    max-width: 250px;
+    max-height: 250px;
+}
+.columna {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    gap: 2rem;
+}
 
 .buscador {
     color: white;
 }
 
-.item-image {
-    max-width: 460px;
-    max-height: 460px;
-    border-radius: 17px;
-}
 
 .item-title {
     color: white;
