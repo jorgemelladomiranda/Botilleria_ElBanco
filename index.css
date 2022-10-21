@@ -29,6 +29,36 @@ body {
 
 }
 
+.carousel-item img{
+    max-width: 250px;
+    max-height: 250px;
+}
+.titulo {
+    padding-top: 60px;
+    background-color: transparent;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+.sub-titulo {
+    background-color: transparent;
+    color: white;
+}
+
+.price-carousel {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+
+#demo {
+    background-color: transparent;
+}
+
+.ley{
+    color: black;
+    background-color: yellow;
+    border: 4px solid black;
+}
+
 a:visited {
     color: white;
 }
@@ -38,15 +68,21 @@ img {
     height: 300px;
 
 }
+
+.item-image:hover{
+    transform: scale(1.1);
+}
 .item-image {
     border-radius: 10px;
     box-shadow: 4px 3px 6px rgb(0 0 0 / 90%);
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 150px;
+    max-height: 150px;
 }
+
+
 .columna {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     gap: 2rem;
 }
 

@@ -120,9 +120,12 @@ const buttonCheckout = document.querySelector("#checkout");
 buttonCheckout.addEventListener("click", () => checkout());
 
 function checkout() {
-shoppingCartItemsContainer.innerHTML = "";
-localStorage.clear();
-updateShoppingCartTotal();
+    shoppingCartItemsContainer.innerHTML = "";
+    updateShoppingCartTotal();
+    setTimeout(()=>{
+    document.location.reload()
+    },0,)
+    localStorage.clear();
 }
 
 function comprarButtonClicked() {

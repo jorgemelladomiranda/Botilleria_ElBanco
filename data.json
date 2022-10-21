@@ -34,6 +34,105 @@
             "name": "Ron Barcelo Añejo",
             "price": 5990,
             "image": "../img/barcelo.jpg"
+        }],
+
+    "ofertas": [{
+            "id": 7,
+            "name": "Casillero Del Diablo Cabernet",
+            "price": 6500,
+            "image": "../img/casillero-del-diablo.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Vino Cono Sur Cabernet",
+            "price": 8900,
+            "image": "../img/vino-conosur-cabernet.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Vino Diablo Dark Red",
+            "price": 10990,
+            "image": "../img/vino-diablo-dar-red.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Vino Marques Merlot",
+            "price": 14490,
+            "image": "../img/vino-marques-merlot.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Pack Pisco Mistral Nobel Fire 750cc + 2 Vasos de Shot",
+            "price": 11990,
+            "image": "../img/promo1.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Pack Ramazzotti + 2 Espumante Baron Lacroix Brut",
+            "price": 16690,
+            "image": "../img/promo2.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Pack Gin Hendricks 700cc + 4 Fentimans 200cc",
+            "price": 29490,
+            "image": "../img/promo3.png"
+        },
+        {
+            "id": 14,
+            "name": "Pack Whiskey Jack Daniels N°7 + Jack Fire 750cc",
+            "price": 46990,
+            "image": "../img/Pack-Whiskey-Jack-Daniels-N°7-Honey.jpg"
+        },
+        {
+            "id": 15,
+            "name": "24 Cervezas Budweiser 355cc",
+            "price": 19690,
+            "image": "../img/cerveza-budweiser.jpg"
+        },
+        {
+            "id": 16,
+            "name": "24 Cervezas Corona Extra 330cc",
+            "price": 20990,
+            "image": "../img/cerveza-corona-extra.jpg"
+        },
+        {
+            "id": 17,
+            "name": "24 Cervezas Miller 355cc",
+            "price": 21990,
+            "image": "../img/cerveza-miller-355cc.jpg"
+        },
+        {
+            "id": 18,
+            "name": "24 Cervezas Sol 330cc",
+            "price": 18990,
+            "image": "../img/cerveza-sol.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Pisco Alto Del Carmen 1 Litro",
+            "price": 5990,
+            "image": "../img/Pisco-Alto-del-Carmen-1-Litro.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Pisco Bauza Especial 1 Litro",
+            "price": 5390,
+            "image": "../img/Pisco-Bauza-Especial-1-Litro-460x460.jpg"
+        },
+        {
+            "id": 21,
+            "name": "Pisco 3 Erres Especial 1 Litro",
+            "price": 5290,
+            "image": "../img/PCRPSE35L-460x460.jpg"
+        },
+        {
+            "id": 22,
+            "name": "Pisco Mal Paso Especial 1 Litro",
+            "price": 6990,
+            "image": "../img/Pisco-Mal-Paso-Especial-1-Litro-460x460.jpg"
         }]
 
+
 }
+

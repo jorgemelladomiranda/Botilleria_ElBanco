@@ -32,6 +32,9 @@ function getProducts() {
                 case 'alcohol':
                     productos = productos.alcohol
                     break
+                case 'ofertas':
+                    productos = productos.ofertas
+                    break
             }
             addBoxItem(productos)
         })
