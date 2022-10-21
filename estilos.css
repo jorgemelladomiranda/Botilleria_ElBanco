@@ -16,14 +16,10 @@ body {
     background-size: cover;
 }
 
-.top-pagina {
-    display: flex !important;
-    justify-content: space-between;
-}
 
 .logo {
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 45px;
+    max-height: 45px;
 
 }
 

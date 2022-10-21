@@ -37,7 +37,18 @@ function addToCartClicked(event) {
       price: itemPrice,
       image: itemImage,
       quantity: 1
-    })
+    }),
+  
+
+      swal.fire ({
+        toast: true,
+        position: 'top-right',
+        icon: "success",
+        text: "Producto agregado correctamente",
+        type: "success",
+        timer: 2000,
+        showConfirmButton: false
+      });
   }
 
   localStorage.setItem('carrito', JSON.stringify(carritoActual))

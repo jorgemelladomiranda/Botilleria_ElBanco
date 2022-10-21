@@ -50,6 +50,10 @@ img {
     flex-direction: column;
     align-items: center;
 }
+.shopping-cart-image{
+    border-radius: 7px;
+    box-shadow: 4px 3px 6px rgb(0 0 0 / 90%);
+}
 
 .item-image {
     max-width: 460px;

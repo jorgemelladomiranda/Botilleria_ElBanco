@@ -11,6 +11,15 @@ body {
 
 }
 
+.navbar-nav {
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
 .logoCarrito {
     max-width: 40px;
     max-height: 40px;
@@ -44,6 +53,12 @@ a:visited {
     color: white;
 }
 
+input {
+    display: block;
+    margin-top: 1em;
+}
+
+
 .formul {
     color: white;
 }
@@ -52,12 +67,21 @@ a:visited {
     margin: auto;
     margin-top: 30px;
     padding: 30px;
+
+}
+
+.maps {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
 }
 
 .grupo-input {
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
+    max-width: 500px;
+    max-height: auto;
 }
 
 .grupo-input input {
@@ -67,21 +91,15 @@ a:visited {
     border: none;
 }
 
-.form {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-}
+
 
 label {
     color: white;
     padding-right: 50px;
 }
 
-
 #error {
     max-width: 800px;
     max-height: 800px;
+
 }
-/*# sourceMappingURL=contacto.css.map */
